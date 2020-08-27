@@ -11,12 +11,11 @@ alias c="clear"
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
-alias lara="sites && cd laravel/"
-alias docs="lara && cd docs/"
+alias clickbar="cd $HOME/Sites/clickbar"
 
 # Laravel
 alias a="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
+alias mfs="php artisan migrate:fresh --seed"
 alias seed="php artisan db:seed"
 
 # PHP
