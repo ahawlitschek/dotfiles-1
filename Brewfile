@@ -60,6 +60,7 @@ cask 'discord'
 cask 'docker'
 cask 'figma'
 cask 'firefox'
+cask 'freedom'
 cask 'github'
 cask 'google-chrome'
 cask 'gpg-suite'
@@ -89,6 +90,7 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
+cask 'font-jetbrains-mono'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
@@ -98,7 +100,8 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Giphy Capture', id: 668208984
+mas 'GIPHY CAPTURE', id: 668208984
+mas 'Harvest', id: 506189836
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
-mas 'Tweetbot', id: 1384080005
+mas 'Twitter', id: 1482454543
