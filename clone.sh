@@ -15,3 +15,6 @@ git clone git@gitlab.com:clickbar/clickbar-corporate-website.git $CLICKBAR/click
 git clone git@gitlab.com:clickbar/computerra/project-z.git $CLICKBAR/project-z
 git clone git@gitlab.com:clickbar/ead/portal-prototype.git $CLICKBAR/ead-portal
 git clone git@gitlab.com:clickbar/ffr/winterdient-planung.git $CLICKBAR/ffr-winterdienst
+git clone git@gitlab.com:clickbar/abb/material-flow-visualization.git $CLICKBAR/abb-flow-genius
+git clone git@gitlab.com:clickbar/computerra/project-z.git $CLICKBAR/project-z
+git clone git@gitlab.com:clickbar/fes/fes-feedback-tool.git $CLICKBAR/fes-feedback
