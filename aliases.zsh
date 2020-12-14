@@ -12,6 +12,7 @@ alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
 alias clickbar="cd $HOME/Sites/clickbar"
+alias thesis="cd $HOME/Documents/bachelor-thesis/"
 
 # Laravel
 alias a="php artisan"
