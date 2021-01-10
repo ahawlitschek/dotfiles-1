@@ -18,3 +18,4 @@ git clone git@gitlab.com:clickbar/ffr/winterdient-planung.git $CLICKBAR/ffr-wint
 git clone git@gitlab.com:clickbar/abb/material-flow-visualization.git $CLICKBAR/abb-flow-genius
 git clone git@gitlab.com:clickbar/computerra/project-z.git $CLICKBAR/project-z
 git clone git@gitlab.com:clickbar/fes/fes-feedback-tool.git $CLICKBAR/fes-feedback
+git clone git@gitlab.com:clickbar/fes/sure.git $CLICKBAR/fes-sure
