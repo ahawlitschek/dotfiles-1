@@ -28,6 +28,9 @@ alias php8="docker run -it -w /data -v ${PWD}:/data:delegated --entrypoint php -
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
 
+# Book-n-Drive
+alias bnd="curl https://web.book-n-drive.de/api/vehicles\?bounding_box\=8.64213493564867,49.84915750937637,8.644833237917652,49.85081952465208 -s | jq 'length'"
+
 # Vagrant
 alias v="vagrant global-status"
 alias vup="vagrant up"
