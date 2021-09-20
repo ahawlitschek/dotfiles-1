@@ -2,6 +2,11 @@
 
 echo "Setting up your Mac..."
 
+# Check for Oh My Zsh and install if we don't have it
+if test ! $(which omz); then
+  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+fi
+
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -15,7 +20,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Install PHP extensions with PECL
-pecl install memcached imagick
+pecl install imagick memcached redis swoole
 
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
