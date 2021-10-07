@@ -25,9 +25,11 @@ brew "mackup"
 brew "mas" # Mac App Store manager
 brew "openjdk"
 brew "pkg-config" # https://github.com/driesvints/dotfiles/issues/20
+brew "svn"
 brew "trash" # Manage the Trash bin
 brew "tree" # List directories in a tree structure
 brew "zlib" # Needed for Memcached
+
 
 # Spatie Medialibrary
 brew "jpegoptim"
@@ -59,7 +61,6 @@ cask "figma"
 cask "github"
 cask "google-chrome"
 cask "gpg-suite"
-cask "harvest"
 cask "iterm2"
 cask "java"
 cask "notion"
